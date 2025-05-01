@@ -10,7 +10,7 @@ La ETL realiza los siguientes pasos:
 2.  **Transformación:** Los datos extraídos son transformados utilizando la librería `pandas` de Python. Las transformaciones incluyen:
     * Renombrar la columna 'cobertuta\_4g' a 'cobertura\_4g' (corrección de un error tipográfico).
     * Convertir los valores de las columnas de cobertura ('cabecera\_municipal', 'cobertura\_2g', 'cobertura\_3g', 'cobertura\_hspa\_hspa\_dc', 'cobertura\_4g', 'cobertura\_lte', 'cobertura\_5g') de los valores 'S' y 'N' a representaciones numéricas `1` y `0` respectivamente. Los valores nulos se mantienen sin cambios.
-    * Renombrar varias columnas para mejorar la legibilidad (ej. 'a\_o' a 'AÑO').
+    * Renombrar varias columnas para mejorar la legibilidad ('a\_o' a 'AÑO').
 3.  **Carga:** Los datos transformados son cargados a un archivo CSV llamado `cobertura_movil_transformado.csv` y son utilizados en el siguiente tablero: https://public.tableau.com/views/ComparacindeCoberturaentreDepartamentosencolombia/Hoja2?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## Contenido del Repositorio
