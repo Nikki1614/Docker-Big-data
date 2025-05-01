@@ -30,7 +30,7 @@ La ETL realiza los siguientes pasos:
     ```
 
 2.  **Construir la imagen de Docker:**
-    Asegúrate de estar en el mismo directorio donde se encuentra el `Dockerfile` y ejecuta el siguiente comando en tu terminal:
+    Asegúrarse de estar en el mismo directorio donde se encuentra el `Dockerfile` y ejecutar el siguiente comando en la terminal:
     ```bash
     docker build -t etl-cobertura-movil .
     ```
