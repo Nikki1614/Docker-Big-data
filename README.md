@@ -1,0 +1,1 @@
+Para el apartado de LOAD se cargo el csv previamente limpio en Tableau: https://public.tableau.com/views/ComparacindeCoberturaentreDepartamentosencolombia/Hoja2?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
